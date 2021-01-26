@@ -10,7 +10,8 @@ public class CEO extends Manager{
 
     }
     public void print(){
-
+        super.print();
+        System.out.println("CEO has company car " + this.isHasCompanyCar());
     }
     public void goPublic(){
         System.out.println("CEO is working on IPO");

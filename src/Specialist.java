@@ -8,7 +8,9 @@ public class Specialist extends Employee {
 
     }
     public void print(){
-     System.out.println("The specialist level is " + this.levels);
+        super.print();
+
+        System.out.println("The specialist level is " + this.getLevels());
     }
     public void workWithClients(){System.out.println("He is developing new product.");
     }

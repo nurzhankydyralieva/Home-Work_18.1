@@ -12,8 +12,9 @@ public class Developer extends Employee{
 
     }
     public void print(){
+        super.print();
 
-        System.out.println("Developer has grades  " + this.grades);
+        System.out.println("Developer has grades  " + this.getGrades());
     }
     public void writeCode(){
         System.out.println("We are working on great project.");

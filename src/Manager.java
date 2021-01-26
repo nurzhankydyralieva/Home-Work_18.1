@@ -11,7 +11,7 @@ public class Manager extends Employee{
     }
     public void print(){
         super.print();
-        System.out.println("Ful name " + this.fullName + " Age " + this.age + " Salary " + this.salary + "Managers has stock " + this.hasStocks);
+        System.out.println("Managers has stock " + this.isHasStocks());
 
     }
     public void writeProcedures(){
