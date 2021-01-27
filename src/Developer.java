@@ -13,8 +13,10 @@ public class Developer extends Employee{
     }
     public void print(){
         super.print();
-
         System.out.println("Developer has grades  " + this.getGrades());
+    }
+    public void quoteGosling(){
+        System.out.println("I think it would be a tragic statement of the universe if Java was the last language that swept through.");
     }
     public void writeCode(){
         System.out.println("We are working on great project.");
