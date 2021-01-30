@@ -8,6 +8,7 @@ public class Main {
      Developer billGates = new Developer("Bill Gates", 50, 5000.5, "First");
      Developer adaLovelace = new Developer("Ada Lovelace", 30, 3000.4, "Second");
      Developer dennisRitchie = new Developer("Dennis Ritchie", 30, 5500.4, "High");
+     Developer linusTorvalds = new Developer("Linus Torvalds", 51, 5500.4, "High");
 
      Manager aliceDjon = new Manager("Alice Djon", 20, 1000.5, true);
      Manager kennLary = new Manager("Kenn Lary", 50, 200.3, true);
@@ -30,6 +31,8 @@ public class Main {
      kennLary.print();
      alexaChack.isHasCompanyCar();
      alexaChack.print();
+     linusTorvalds.print();
+     linusTorvalds.quotesTorvalds();
 
 
 
