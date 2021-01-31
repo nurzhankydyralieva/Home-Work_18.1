@@ -1,5 +1,3 @@
-import java.security.PublicKey;
-
 public class Developer extends Employee{
     private String grades;
 
@@ -16,6 +14,13 @@ public class Developer extends Employee{
 
         System.out.println("Developer has grades  " + this.getGrades());
     }
+
+    @Override
+    public void goToVacation() {
+        super.goToVacation();
+        System.out.println( "I am developer and I am going to bootcamp!");
+    }
+
     public void writeCode(){
         System.out.println("We are working on great project.");
     }

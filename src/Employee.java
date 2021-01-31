@@ -4,6 +4,7 @@ public class Employee {
     private double salary;
 
 
+
     public Employee(String fullName, int age, double salary) {
         this.fullName = fullName;
         this.age = age;
@@ -16,7 +17,9 @@ public class Employee {
     public void print() {
         System.out.println("Ful name " + this.fullName + " Age " + this.age + " Salary " + this.salary);
     }
-
+    public void goToVacation(){
+        System.out.println("We are going to Dubai to celebrate the birth day of our company");
+    }
     public void setFullName(String fullName) {
         this.fullName = fullName;
     }

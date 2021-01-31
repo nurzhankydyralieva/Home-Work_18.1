@@ -14,6 +14,14 @@ public class Specialist extends Employee {
     }
     public void workWithClients(){System.out.println("He is developing new product.");
     }
+
+    @Override
+    public void goToVacation() {
+        super.goToVacation();
+        System.out.println("I am specialist and I am going to Moscow");
+
+    }
+
     public int getLevels() {
         return levels;
     }

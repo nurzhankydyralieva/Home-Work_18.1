@@ -13,6 +13,13 @@ public class CEO extends Manager{
         super.print();
         System.out.println("CEO has company car " + this.isHasCompanyCar());
     }
+
+    @Override
+    public void goToVacation() {
+        super.goToVacation();
+        System.out.println("I am CEO and I am going to HavaiI!");
+    }
+
     public void goPublic(){
         System.out.println("CEO is working on IPO");
     }

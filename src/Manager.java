@@ -18,6 +18,12 @@ public class Manager extends Employee{
         System.out.println("Managers are developing  new procedures for new project");
     }
 
+    @Override
+    public void goToVacation() {
+        super.goToVacation();
+        System.out.println("I am manager and I am going to Paris");
+    }
+
     public boolean isHasStocks() {
         return hasStocks;
     }
